@@ -1,0 +1,53 @@
+    1  mkdir zad{1..14}
+    2  cd zad1
+    3  ls ~/materijali/m*
+    4  cd ..
+    5  cd ~/materijali/
+    6  ls m*
+    7  ls m* > ~/zad2/listing
+    8  cd ..
+    9  cd zad1
+   10  ls ~/materijali/m* > listing
+   11  cd ..
+   12  cd zad3
+   13  cp -r ~/materijali/letters/ ~/zad3/
+   14  cd letters/
+   15  rm ??
+   16  ls
+   17  cd ..
+   18  cd /var/log/
+   19  ls syslog.?.gz > ~/zad4/listing
+   20  cd ~
+   21  cd zad5
+   22  cp -r ~/materijali/letters/ ~/zad5/slova
+   23  cd slova/
+   24  mv B* ~/zad5
+   25  cd ..
+   26  ls
+   27  cd ..
+   28  cd zad6
+   29  cd ..
+   30  cd ~/materijali/
+   31  ls -alsr ~/zad6/size_sorted_desc
+   32  ls -alsr >  ~/zad6/size_sorted_desc
+   33  cd ..
+   34  cd ~/materijali/
+   35  ls *.log > ~/zad8/listing
+   36  ls *user* > ~/zad9/listing
+   37  cd backup/
+   38  ls *2018* ~/zad10/listing
+   39  ls *2018* > ~/zad10/listing
+   40  cd ~
+   41  ls ~/materijali/logs-backup-?/backup* > ~/zad11/listing
+   42  cd zad11
+   43  cat listing 
+   44  cd ..
+   45  cd ~/materijali/backup/
+   46  ls *[1][1-2]??????
+   47  ls *[1][1-2]?????? > ~/zad12/listing
+   48  cd ~
+   49  cat zad*/listing 
+   50  cat zad*/listing > ~/zad14/list_all_content
+   51  ls zad*/listing
+   52  ls zad*/listing > ~/zad13/list_all
+   53  history > task03
