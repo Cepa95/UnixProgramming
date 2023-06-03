@@ -1,0 +1,14 @@
+total 0
+---------- 1 mint mint  0 Jun  3 20:05 00
+d--------- 2 mint mint 40 Jun  3 20:05 01
+-r-------- 1 mint mint  0 Jun  3 20:05 02
+--w------- 1 mint mint  0 Jun  3 20:05 03
+---x------ 1 mint mint  0 Jun  3 20:05 04
+----r----- 1 mint mint  0 Jun  3 20:05 05
+-----w---- 1 mint mint  0 Jun  3 20:05 06
+------x--- 1 mint mint  0 Jun  3 20:05 07
+-------r-- 1 mint mint  0 Jun  3 20:05 08
+--------w- 1 mint mint  0 Jun  3 20:05 09
+---------x 1 mint mint  0 Jun  3 20:05 10
+drwxrwxrwx 2 mint mint 40 Jun  3 20:05 11
+-rw-rw-r-- 1 mint mint  0 Jun  3 20:12 12_listing

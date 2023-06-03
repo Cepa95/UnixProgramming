@@ -1,0 +1,100 @@
+    1  mkdir zad{1..13}
+    2  cd zad1
+    3  pwd
+    4  echo ~
+    5  ls ~
+    6  ls -a ~
+    7  ls -l ~
+    8  ls -al ~
+    9  tree
+   10  cd ..
+   11  tree
+   12  cd zad1
+   13  touch vjezba
+   14  ls
+   15  tree
+   16  cd ..
+   17  cd zad2
+   18  touch prva druga treca
+   19  cd ..
+   20  cd zad3
+   21  cd ..
+   22  tree > zad3/treeoutput
+   23  cp ~/materijali/mjesta ~/zad4/
+   24  chmod 400 ~/zad4/mjesta
+   25  history
+   26  cd zad5
+   27  whoami
+   28  whoami > myname
+   29  chmod 777 myname
+   30  ls -l
+   31  cd ..
+   32  cd zad6
+   33  passwd
+   34  nano my_password
+   35  cd ..
+   36  cd zad7
+   37  cat ~/etc/passwd
+   38  cat /etc/passwd
+   39  echo "999" > my_user_id
+   40  cd ..
+   41  cd zad8
+   42  ls -l ~
+   43  ls -l ~ > dir_listing
+   44  cd ..
+   45  cd zad9
+   46  ls -l /home
+   47  ls -l /home > home_listing
+   48  cd ..
+   49  cd zad10
+   50  chmod 700  ~/zad10
+   51  touch 100
+   52  chmod 400 100
+   53  ls -l
+   54  cd ..
+   55  cd zad11
+   56  mkdir protected
+   57  cd protected/
+   58  touch my_file
+   59  cd ..
+   60  chmod 400 protected
+   61  ls -l
+   62  chmod 500 protected
+   63  cd ..
+   64  cd zad12
+   65  mkdir backup
+   66  chmod 500 backup
+   67  cp -r ~/materijali/* backup
+   68  cd ..
+   69  cd zad13
+   70  mkdir {00..11}
+   71  ls
+   72  rm *
+   73  rm -r *
+   74  ls
+   75  touch {00..11}
+   76  ls
+   77  rm 01 11
+   78  ls
+   79  mkdir 01 11
+   80  ls
+   81  chmod 000 00
+   82  chmod 000 01
+   83  ls -l
+   84  chmod 400 02
+   85  chmod 200 03
+   86  chmod 100 04
+   87  chmod 040 05
+   88  ls -l
+   89  chmod 020 06
+   90  ls -l
+   91  chmod 010 07
+   92  chmod 004 08
+   93  ls -l
+   94  chmod 002 09
+   95  chmod 001 10
+   96  chmod 777 11
+   97  ls -l
+   98  ls -l > 12_listing
+   99  cd ..
+   100  history > task01
