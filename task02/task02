@@ -1,0 +1,75 @@
+    1  mkdir zad{1..15}
+    2  cd zad1
+    3  cp ~/materijali/mint_download_links ~/zad1/
+    4  cd ..
+    5  cd ~/materijali/
+    6  ls
+    7  touch towns
+    8  cp towns ~/zad2/
+    9  cd ..
+   10  cd zad3
+   11  touch f1 f2
+   12  mkdir d1 d2
+   13  mv f1 f2 d1
+   14  cd d1
+   15  ls
+   16  cp f1 f2 ~/zad3/d2
+   17  cd zad4
+   18  cp ~/materijali/{mjesta,towns} ~/zad4/
+   19  ls
+   20  cd ..
+   21  cd zad5
+   22  cp -r ~/materijali/{logs,towns} ~/zad5/
+   23  ls
+   24  cd  ..
+   25  cd zad6
+   26  cp ~/materijali/towns ~/zad6/gradovi
+   27  ls
+   28  cd ..
+   29  cd zad7
+   30  ~/materijali/
+   31  cp ~/materijali/towns ~/zad7
+   32  mkdir moved
+   33  mv towns moved
+   34  cd ..
+   35  cd zad8
+   36  cp -r ~/materijali/logs ~/zad8/logovi
+   37  cd ..
+   38  cd zad9
+   39  mkdir My\ Documents
+   40  ls
+   41  mv My\ Documents My\ old\ Documents
+   42  ls
+   43  cd ..
+   44  cd zad10
+   45  touch .hidden1 .hidden2
+   46  ls -l
+   47  ls -al
+   48  mkdir tmp
+   49  mv .hidden1 .hidden2 tmp
+   50  mv tmp temp
+   51  tree -a
+   52  cd ..
+   53  cd zad11
+   54  touch a b c d e
+   55  cd zad12
+   56  mkdir characters
+   57  cp ~/zad11/* ~/zad12/characters/
+   58  tree
+   59  cd ..
+   60  cd zad13
+   61  touch {0..9}
+   62  ls
+   63  rm *
+   64  mkdir {0..9}
+   65  cd ..
+   66  cd zad14
+   67  date
+   68  date > my\ signature
+   69  nano my\ signature 
+   70  cd ..
+   71  cd zad15
+   72  date +%Y%m%d-%H%M%S
+   73  date +%Y%m%d-%H%M%S > timestamp
+   74  cd ..
+   75  history > task02
