@@ -1,0 +1,79 @@
+    1  2023-03-29 11:06:23 mkdir{1..14}
+    2  2023-03-29 11:06:29 mkdir zad{1..14}
+    3  2023-03-29 11:06:31 ls
+    4  2023-03-29 11:06:56 log=/materijali/web_access.log 
+    5  2023-03-29 11:07:19 words=/usr/share/dict/words
+    6  2023-03-29 11:07:30 echo $log
+    7  2023-03-29 11:07:45 grep 'terminated' $log
+    8  2023-03-29 11:08:05 grep 'terminated$' $log
+    9  2023-03-29 11:08:22 grep 'terminated$' $log > ~/zad1/result
+   10  2023-03-29 11:08:27 ls
+   11  2023-03-29 11:08:28 tree
+   12  2023-03-29 11:08:57 grep -c 'Windows 9[0-9]' $log
+   13  2023-03-29 11:09:39 grep -c 'Windows 9[0-9]' $log > ~/zad2/result
+   14  2023-03-29 11:10:23 grep -c '^$' $log
+   15  2023-03-29 11:10:44 grep -c '^$' $log > ~/zad3/result
+   16  2023-03-29 11:11:48 grep -E '^.{5}bow' $words
+   17  2023-03-29 11:11:58 grep -E '^.{5}bow$' $words
+   18  2023-03-29 11:12:40 grep -E '^.{5}bow$' $words > ~/zad4/result
+   19  2023-03-29 11:13:23 grep '[^[:space:]]eth0' $log
+   20  2023-03-29 11:13:46 grep '[^[:space:]]eth0' $log > ~/zad5/result
+   21  2023-03-29 11:13:48 tree
+   22  2023-03-29 11:14:37 grep -E '(pa){2,}' $words
+   23  2023-03-29 11:16:44 grep -E '(pa){2,}' $words > ~/zad6/result
+   24  2023-03-29 11:17:06 grep '[ij][ij][ij]' $words
+   25  2023-03-29 11:17:21 grep '[ij][ij][ij]' $words > ~/zad7/result
+   26  2023-03-29 11:18:26 grep -o '192\\.168\\.\\16\\.[0-9]
+   27  2023-03-29 11:18:49 grep -o '192\\.168\\.\\16\\.[0-9]\+' $log
+   28  2023-03-29 11:19:01 grep -o '192\.168\.\16\.[0-9]\+' $log
+   29  2023-03-29 11:20:01 grep -o '192' $log
+   30  2023-03-29 11:20:08 grep -o '192\.' $log
+   31  2023-03-29 11:20:34 grep -o '192\.168\.16\.[0-9]\+' $log
+   32* 2023-03-29 11:21:15 grep -o '192.168.16.[0-9]\+' $log 
+   33  2023-03-29 11:21:36 grep -o '192\.168\.16\.[0-9]\+' $log > ~/zad8/result
+   34  2023-03-29 11:22:11 grep -0 '13.*T' /materijali/intel_processor_list 
+   35  2023-03-29 11:22:36 grep -o '13.*T' /materijali/intel_processor_list 
+   36  2023-03-29 11:23:07 grep -o 'i3.*T' /materijali/intel_processor_list 
+   37  2023-03-29 11:23:48 grep -o 'i3.*TE' /materijali/intel_processor_list 
+   38  2023-03-29 11:24:06 grep -o 'i3.*T' /materijali/intel_processor_list 
+   39  2023-03-29 11:24:28 grep -o 'i3.*T\b' /materijali/intel_processor_list 
+   40  2023-03-29 11:25:05 grep -o 'i3.*T\b' /materijali/intel_processor_list > ~/zad9/result
+   41  2023-03-29 11:25:51 curl https://personal.oss.unist.hr/~ngrgic/rac
+   42  2023-03-29 11:26:17 curl https://personal.oss.unist.hr/~ngrgic/rac | grep -i 'racun'
+   43  2023-03-29 11:26:38 curl https://personal.oss.unist.hr/~ngrgic/rac | grep -i 'racun' > ~/zad10/racun
+   44  2023-03-29 11:26:43 tree
+   45  2023-03-29 11:27:06 predajem zad@1..10]
+   46  2023-03-29 11:27:12 predajem zad[1..10]
+   47  2023-03-29 11:27:30 predajem zad{2..10}
+   48  2023-03-29 11:27:41 predajem zad3
+   49  2023-03-29 11:27:47 predajem zad4
+   50  2023-03-29 11:27:53 predajem zad5
+   51  2023-03-29 11:27:58 predajem zad6
+   52  2023-03-29 11:28:04 predajem zad7
+   53  2023-03-29 11:28:09 predajem zad8
+   54  2023-03-29 11:28:15 predajem zad9
+   55  2023-03-29 11:28:22 predajem zad10
+   56  2023-03-29 11:29:14 curl https://personal.oss.unist.hr/~ngrgic/rac | grep -i 'p.*racunala'
+   57  2023-03-29 11:29:25 curl https://personal.oss.unist.hr/~ngrgic/rac | grep -i 'p.*racunala' | wc -l
+   58  2023-03-29 11:29:46 curl https://personal.oss.unist.hr/~ngrgic/rac | grep -i 'p.*racunala' | wc -l > ~/zad11/racun_count
+   59  2023-03-29 11:29:55 predajem zad11
+   60  2023-03-29 11:30:14 cd zad11
+   61  2023-03-29 11:30:15 ls
+   62  2023-03-29 11:30:19 cat racun_count 
+   63  2023-03-29 11:30:22 cd ..
+   64  2023-03-29 11:30:56 curl https://personal.oss.unist.hr/~ngrgic/rac | sed 's/racunar/racunal/g'
+   65  2023-03-29 11:31:18 curl https://personal.oss.unist.hr/~ngrgic/rac | sed 's/racunar/racunal/g' > ~/zad12/racunalstvo
+   66  2023-03-29 11:31:35 curl https://personal.oss.unist.hr/~ngrgic/rac | sed 's/racunar/racunal/gi' > ~/zad12/racunalstvo
+   67  2023-03-29 11:31:40 curl https://personal.oss.unist.hr/~ngrgic/rac | sed 's/racunar/racunal/g' > ~/zad12/racunalstvo
+   68  2023-03-29 11:31:49 curl https://personal.oss.unist.hr/~ngrgic/rac | sed 's/racunar/racunal/gi'
+   69  2023-03-29 11:33:00 curl https://personal.oss.unist.hr/~ngrgic/rac | sed 's/racunar/racunal/g' | sed 's/Racunar/Racunal/g'
+   70  2023-03-29 11:33:20 curl https://personal.oss.unist.hr/~ngrgic/rac | sed 's/racunar/racunal/g' | sed 's/Racunar/Racunal/g' > ~/zad13/racunalstvo
+   71  2023-03-29 11:33:24 predajem zad12
+   72  2023-03-29 11:33:32 predajem zad13
+   73  2023-03-29 11:33:56 man sed
+   74  2023-03-29 11:35:18 sed '/^$/d' /materijali/towns_spaced 
+   75  2023-03-29 11:35:54 cat  /materijali/towns_spaced 
+   76  2023-03-29 11:36:33 sed '/^$/d' /materijali/towns_spaced > ~/zad14/towns_no_space
+   77  2023-03-29 11:36:35 tree
+   78  2023-03-29 11:36:42 predajem zad14
+   79  2023-03-29 11:36:49 sharehistory
