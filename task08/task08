@@ -27,5 +27,5 @@
    27  nano script.sh
    28  bash script.sh 
    29  cd ..
-   30  history
-   31  history > task08
+   30  history > task08
+
