@@ -1,0 +1,56 @@
+ 1  mkdir zad{1..7}
+ 2  cd zad1
+ 3  nano hello.c
+ 4  gcc hello.c -o hello
+ 5  ./hello
+ 6  ./hello > greeting
+ 7  cd ..
+ 8  cd zad2
+ 9  nano hello.c
+ 10  gcc hello.c -o hello
+ 11  ./hello josip
+ 12  cd ..
+ 13  cd zad3
+ 14  nano modul.c
+ 15  mv modul.c fmodul.c
+ 16  ls
+ 17  nano fmodul.c 
+ 18  gcc -c fmodul.c -o fmodul.o
+ 19  ar rcs libmodul.a fmodul.o
+ 20  ls
+ 21  cd ..
+ 22  cd zad4
+ 23  nano abs.c
+ 24  gcc abs.c ~/zad3/libmodul.a -o abs
+ 25  nano abs.c
+ 26  gcc abs.c ~/zad3/libmodul.a -o abs
+ 27  ./abs -5.34
+ 28  cd ..
+ 29  cd zad5
+ 30  nano mod.c
+ 31  gcc mod.c -o mod
+ 32  nano mod.c
+ 33  gcc mod.c -o mod
+ 34  ./mod  56.22
+ 35  ./mod  56.22 123
+ 36  cd ..
+ 37  cd zad6
+ 38  nano script.sh
+ 39  bash script.sh 
+ 40  cat brojevi505 
+ 41  cd ..
+ 42  cd zad7
+ 43  cp ~/zad5/mod.c ~/zad7/
+ 44  cp ~/zad3/fmodul.c ~/zad7/
+ 45  ls
+ 46  nano makefile
+ 47  make
+ 48  nano makefile
+ 49  make
+ 50  ls
+ 51  make clean_start 
+ 52  nano makefile
+ 53  make clean_start 
+ 54  ls
+ 55  cd ..
+ 56  history > task10
