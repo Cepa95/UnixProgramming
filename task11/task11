@@ -1,0 +1,50 @@
+    1  mkdir zad{1..4}
+    2  cd zad1
+    3  git clone https://github.com/ossunix/hello_world_template.git
+    4  ls
+    5  cd hello_world_template/
+    6  ls
+    7  cd src/
+    8  ls
+    9  nano main.c 
+   10  make
+   11  ./main
+   12  ./main > ~/zad1/hello
+   13  cd ~
+   14  cd zad2
+   15  git clone https://github.com/ossunix/slova.git
+   16  ls
+   17  nano slova/
+   18  cd slova/
+   19  ls
+   20  nano velika_slova.c 
+   21  nano script.sh
+   22  bash script.sh 
+   23  ls
+   24  gcc velika_slova.c -o slovo
+   25  nano script.sh
+   26  bash script.sh 
+   27  cat animals_capitalized 
+   28  cd ~
+   29  cd zad3
+   30  git clone https://github.com/ossunix/udvostruci.git
+   31  ls
+   32  cd udvostruci/
+   33  ls
+   34  gcc udvostruci.c -o udvostruci
+   35  nano script.sh
+   36  bash script.sh 
+   37  ls
+   38  cat brojevi200 
+   39  cd ~
+   40  cd zad4
+   41  cp ~/zad3/udvostruci/udvostruci.c ~/zad4/
+   42  ls
+   43  nano udvostruci.c 
+   44  nano makefile
+   45  make
+   46  nano script.sh
+   47  bash script.sh 
+   48  cat brojevi200 
+   49  cd ..
+   50  history > task11

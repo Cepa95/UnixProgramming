@@ -1,0 +1,2 @@
+all: udvostruci.c
+	gcc udvostruci.c -o udvostruci
