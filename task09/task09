@@ -1,0 +1,35 @@
+    1  mkdir zad{1..5}
+    2  cd zad1
+    3  nano sleep.sh
+    4  bash sleep.sh 
+    5  cd ..
+    6  cd zad2
+    7  nano script.sh
+    8  touch a
+    9  bash script.sh ~/zad2/a
+   10  mkdir aa
+   11  bash script.sh ~/zad2/aa
+   12  cd ..
+   13  cd zad3
+   14  nano stari.sh
+   15  touch a b c
+   16  bash stari.sh 
+   17  ls
+   18  cd ..
+   19  cd zad4
+   20  nano count.sh
+   21  bash count.sh ~/materijali/file_test/
+   22  nano count.sh
+   23  bash count.sh ~/materijali/file_test/
+   24  man test
+   25  nano count.sh
+   26  bash count.sh ~/materijali/file_test/
+   27  cd ..
+   28  cd zad5
+   29  nano script.sh
+   30  bash script.sh google
+   31  nano script.sh
+   32  bash script.sh google
+   33  bash script.sh google.com
+   34  cd ..
+ 
