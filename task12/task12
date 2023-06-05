@@ -1,0 +1,49 @@
+    1  mkdir zad{1..5}
+    2  cd zad1
+    3  nano script.sh
+    4  bash script.sh 
+    5  ls
+    6  bash script.sh 
+    7  cat users101 
+    8  cd ..
+    9  cd zad2
+   10  nano script.sh
+   11  bash script.sh 
+   12  ls
+   13  nano script.sh
+   14  bash script.sh 
+   15  ls
+   16  cat dircreator.log 
+   17  cd ..
+   18  cd zad3
+   19  nano karta.c
+   20  nano makefile
+   21  make
+   22  cd ..
+   23  wget http://personal.oss.unist.hr/~ngrgic/materijali.tar.gz
+   24  sudo tar xf materijali.tar.gz -C /
+   25  cd /materijali
+   26  ls
+   27  cd ..
+   28  cd zad3
+   29  cd ~
+   30  cd zad3
+   31  make
+   32  nano makefile 
+   33  make
+   34  ./karta 40 > karte
+   35  cat karte
+   36  cd ..
+   37  cd zad4
+   38  nano dat.c
+   39  gcc dat.c /materijali/libbur.a -o output
+   40  ./output 5
+   41  nano script.sh
+   42  bash script.sh 
+   43  cat brojevi 
+   44  cd ..
+   45  cd zad5
+   46  cp ~/zad4/output ~/zad5/broj
+   47  nano zbroji
+   48  bash zbroji 1 2
+   49  history > task12

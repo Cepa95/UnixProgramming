@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [[ $# -ne 2 ]];then
+	echo "kriv broj argumenata"
+	exit 1
+fi
+
+prvo=$1
+drugo=$2
+
+broj1=$(~/zad5/broj $prvo)
+broj2=$(~/zad5/broj $drugo)
+
+suma=$(($1+$2))
+broj3=$(~/zad5/broj $suma)
+
+if [ $suma -le 9 ];then
+	echo $broj1 plus $broj2 je $broj3
+else
+	echo "zbroj je veci od 9"
+fi
